@@ -9,5 +9,5 @@ urlpatterns = [
     path('login', LoginAPIView.as_view(), name='login'),
     path('logout', knox_views.LogoutView.as_view(), name='logout'),
     path('retrieve', UserRetrieveAPIView.as_view(), name='retrieve'),
-    path('update', UserUpdateAPIView.as_view(), name='update'),
+    path('update', UserUpdateAPIView.as_view(), name='update'), 
 ]

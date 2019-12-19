@@ -7,7 +7,6 @@ from knox.models import AuthToken
 from .serializers import RegisterSerializer, LoginSerializer, UserSerializer
 from .models import User
 
-from .helpers import updateUser
 
 
 class RegisterAPIView(generics.GenericAPIView):
